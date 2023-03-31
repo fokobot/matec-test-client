@@ -1,0 +1,17 @@
+body {
+    margin: 0px !important;
+}
+
+.App {
+    height: 100%;
+    background-color: #e5e5f7;
+    background-image:  radial-gradient(#444cf7 1.35px, transparent 1.35px), radial-gradient(#444cf7 1.35px, #e5e5f7 1.35px);
+    background-size: 54px 54px;
+    background-position: 0 0,27px 27px;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
