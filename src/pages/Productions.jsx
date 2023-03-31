@@ -226,7 +226,8 @@ export const Productions = () => {
                     name="order"
                 >
                     <MenuItem value={''}>--Ordenar--</MenuItem>
-                    <MenuItem value={'name'}>Nombre</MenuItem>
+                    <MenuItem value={'name'}>Nombre ASC</MenuItem>
+                    <MenuItem value={'-name'}>Nombre DESC</MenuItem>
                     <MenuItem value={'genre'}>Género</MenuItem>
                     <MenuItem value={'type'}>Tipo</MenuItem>
                     <MenuItem value={'-rating'}>Rating</MenuItem>
