@@ -229,7 +229,7 @@ export const Productions = () => {
                     <MenuItem value={'name'}>Nombre</MenuItem>
                     <MenuItem value={'genre'}>Género</MenuItem>
                     <MenuItem value={'type'}>Tipo</MenuItem>
-                    <MenuItem value={'rating'}>Rating</MenuItem>
+                    <MenuItem value={'-rating'}>Rating</MenuItem>
                 </Select>
             </Stack>
             {productions.map(production => {
